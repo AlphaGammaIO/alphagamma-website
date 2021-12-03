@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="author" content="ALPHA GAMMA">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="hotcss" content="initial-dpr=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link href="css/common.css" type="text/css" rel="stylesheet" />
+    <link href="/svg/link.ico" rel="shortcut icon">
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+   
+</head>
+
+<body>
+    <div class="main">
+        <section class="titleContainer">
+            <div class="indexBg">
+                <div class="indexfilter">
+                    <div class="header-nav ">
+                        <div class="container">
+                            <a href="index.html" class="indexnav">
+                                <span class="logo">
+                                    <img src="./svg/logo.png" alt="">
+
+                                </span>
+                            </a>
+                            <div class="right_nav secondNavContent">
+                                <ul id="feature"> <!--
+                                    <li><a href="#contactus"><span>About Us </span></a></li>
+                                    <li><a href="#contactus"><span>Profolio </span></a></li>
+                                    <li><a href="#contactus"><span>Contact </span></a></li>
+                                    -->
+                                </ul>
+                            </div>
+
+                            <div class="right_nav burger">
+                                <div class="x"></div>
+                                <div class="y" style="display: block;"></div>
+                                <div class="z"></div>
+                            </div>
+                        </div>
+                        <div class="showmenu">
+                            <div class="menu-bg"></div>
+                            <div class="menu">
+                                <ul class="menu-splitL">
+
+                                    <li>
+                                        <a href="#what">
+                                            Contact
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="menu-splitR">
+
+                                    <li>
+                                        <a href="#what">
+                                            Contact
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="overhidden">
+                        <div class="bannerbg ">
+                            <span ></span>
+                                    ALPHA GAMMA We are committed to contributing to the blockchain ecosystem
+                            </span>
+                        </div>
+                        <div class="container">
+                            <div class="portfolios">
+                                <div class="leftside">
+                                    <span></span>
+                                    <p></p>
+                                </div>
+                                <div class="rightside">
+                                    <div class="lorem"> 
+                                        We, as a privately held and self-funded venture firm, focus on investment in blockchain technology, digital assets and DeFi platforms. We have participated in strategic and seed round investments, acquisitions of early stage, pre-listed assets in cryptocurrencies and tokens, while our technical team continues to drive DApps development and contributes to the blockchain ecosystem.
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="footer">
+                <span class="leftside">© 2021 Alpha Gamma, All Rights Reserved.</span>
+                <span class="rightside">
+                    <a href="https://twitter.com/AlphaGamma_io" target="blank">
+                        <img src="./svg/twitter.png" alt="">
+                    </a>
+                </span>
+            </div>  
+        </section>
+    </div>
+</body>
+<script>
+    // ahref-slide
+    $('a[href*=\\#]:not([href=\\#])').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var $target = $(this.hash);
+            $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+            if ($target.length) {
+                var targetOffset = $target.offset().top;
+                $('html,body').animate({
+                    scrollTop: targetOffset
+                },
+                    1000);
+                return false;
+            }
+        }
+    })
+   
+</script>
+
+</html>

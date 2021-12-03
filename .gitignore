@@ -1,0 +1,10 @@
+# OS files
+.DS_Store[?]
+Desktop.ini
+
+# node installs
+node_modules/
+
+# distro files
+dist/
+
