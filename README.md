@@ -1,4 +1,4 @@
-# CGWCapital.one - website
+# AlphaGamma.io - website
 
 # Static Site Generator
 
